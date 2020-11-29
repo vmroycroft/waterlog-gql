@@ -1,0 +1,30 @@
+{
+	"name": "rainql",
+	"version": "0.1.0",
+	"description": "A GraphQL API for the Rain Tracker web app.",
+	"private": true,
+	"license": "MIT",
+	"homepage": "https://github.com/vmroycroft/rainql#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/vmroycroft/rainql.git"
+	},
+	"main": "app.js",
+	"scripts": {
+		"start": "nodemon src/app.js",
+		"graphdoc": "graphdoc",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {
+		"@2fd/graphdoc": "^2.4.0",
+		"apollo-datasource-rest": "^0.7.0",
+		"apollo-server": "^2.11.0",
+		"dotenv": "^8.2.0",
+		"graphql": "^14.6.0",
+		"mongoose": "^5.9.5"
+	},
+	"graphdoc": {
+		"endpoint": "http://localhost:4000",
+		"output": "./docs"
+	}
+}

@@ -1,9 +1,9 @@
-# RainQL
+# Waterlog GQL
 
 ![Version](https://img.shields.io/github/package-json/v/vmroycroft/waterlog-gql)
 ![MIT License](https://img.shields.io/github/license/vmroycroft/waterlog-gql)
 
-A GraphQL API for the Rain Tracker web app. Built with [Apollo Server](https://www.apollographql.com/docs/apollo-server/).
+A GraphQL API for the Waterlog web app. Built with [Apollo Server](https://www.apollographql.com/docs/apollo-server/).
 
 ## Quick Start
 
